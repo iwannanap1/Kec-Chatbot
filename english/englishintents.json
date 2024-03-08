@@ -1,0 +1,1347 @@
+{
+    "intents": [
+      {
+        "tag":"greeting",
+        "patterns":[
+          "Hi",
+          "Hey",
+          "Is anyone there?",
+          "Hello",
+          "Hi chatbot",
+          "hi kec",
+          "hlo"
+          ],
+        "responses": [
+          "Hi,I am KEC Chatbot.If you have any questions,feel free to ask."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "bye",
+          "goodbye",
+          "thankyou",
+          "ok",
+          "exit"
+        ],
+        "responses": [
+          "Thankyou for using our Chatbot.Have a great day."
+        ]
+      },
+      {
+        "tag": "aboutme",
+        "patterns": [
+          "who are you",
+          "who are you",
+          "tell me about yourself",
+          "what are you?"
+        ],
+        "responses": [
+          "I am KEC Chatbot."
+        ]
+      },
+      {
+        "tag": "error",
+        "patterns": [
+          "asdf",
+          ".",
+          "....",
+          ",,,",
+          "asdfghjkl",
+          "qwerty",
+          "zxcvbnm",
+          "tell me a joke",
+          "tell me",
+          "adfa afdf werioadf dsdfa dafaf",
+          "what iss the colleg time?"
+        ],
+        "responses": [
+          "Please ask questions in undrestandable form."
+        ]
+      },
+  
+      {
+        "tag": "courses",
+        "patterns": [
+          "what are the courses offered by kec",
+          "courses available in kec",
+          "courses at kec"
+        ],
+        "responses": [
+          "Bachelor courses offered are:Bachelors in Architecture,\n Bachelors in Civil Engineering,\nBachelors in Computer Engineering,\nBachelors in Electrical Engineering,\nBachelors in Electronics Communication and Information Engineering"
+  
+        ]
+      },
+      {
+        "tag": "applicationchecklist",
+        "patterns": [
+          "What are the documents required during admission",
+          "admission document",
+          "admission paper"
+        ],
+        "responses": [
+          "The applicant needs to provide the following materials:\n• Character certificates, mark sheets, and transcripts for SLC, ISC, 10+2, I.E., A Level, and CBSE\n• One picture of each parent or guardian and two passport-sized images of the student.\n• A duplicate of their passport\n• Migration certificate; • 200-marks math certificate for applicants in the biological or physical group.\n• The original score card from IOE, Pulchowk, must to be turned in when applying for admission."
+        ]
+      },
+      {
+        "tag":"attendance",
+        "patterns": [
+          "mimimum attendance required",
+          "attendance reuired to attend exam"
+        ],
+        "responses": [
+          "In order to participate in the IOE final test, students must maintain a minimum of 75% attendance."
+        ]
+      },
+      {
+        "tag": "disqualification",
+        "patterns": [
+         "disqualification criteria",
+          "when does a students becomes disqualified",
+          "how are students disqualified"
+        ],
+        "responses": [
+          "A student will be subject to disqualification if they: • Don't keep up a minimum of 75% attendance for the entire semester.\n• The student fails to pass the tests that are given over the semester. The subject teacher in question must make the recommendation for disqualification."
+        ]
+      },
+      {
+        "tag": "idcard",
+        "patterns": [
+          "id card",
+          "idcard",
+          "is id card needed",
+          "about idcard"
+        ],
+        "responses":[
+          "While on college property, students must always have the identity card that was issued to them."
+        ]
+      },
+      {
+        "tag": "uniform",
+        "patterns": [
+          "kec unifrom",
+          "uniform",
+          "uniform color",
+          "what is the uniform of kec"
+        ],
+        "responses": [
+          "The following is the required student attire:\nThe college-mandated tie, black shoes, a white shirt, and a navy blue coat, jacket, or coat"
+        ]
+      },
+      {
+        "tag": "computerhod",
+        "patterns": [
+          "Who is hod of computer",
+          "computer hod",
+          "hod computer",
+          "name of computer hod",
+          "computer faculty hod"
+        ],
+        "responses": [
+          "Er. Sudeep Shakya is the HOD of computer faculty."
+        ]
+      },
+      {
+      "tag": "architecuterhod",
+      "patterns": [
+        "Who is hod of architecture",
+        "architecture hod",
+        "hod architecture",
+        "name of architecture hod",
+        "architecture faculty hod"
+      ],
+        "responses": [
+          " Ar. Moon Singh Dongol is the HOD of architecture faculty."
+        ]
+      },
+      {
+        "tag": "electronicshod",
+        "patterns": [
+          "Who is hod of electronics",
+          "electronics hod",
+          "hod electronics",
+          "name of electronics hod",
+          "electronics faculty hod"
+        ],
+        "responses": [
+          "Er. Rajan Lama is the HOD of electronics faculty."
+        ]
+      },
+      {
+        "tag": "electricalhod",
+        "patterns": [
+          "Who is hod of electrical",
+          "electrical hod",
+          "hod electrical",
+          "name of electrical hod",
+          "electrical faculty hod"
+        ],
+        "responses": [
+          "Er. Binod Bhandari is the HOD of electrical faculty."
+        ]
+      },
+      {
+        "tag": "mechanicalhod",
+        "patterns": [
+          "Who is hod of mechanical",
+          "mechanical hod",
+          "hod mechanical",
+          "name of mechanical hod",
+          "mechanical faculty hod"
+        ],
+        "responses": [
+          "Er. Manchan Tiwari is the HOD of mechanical faculty."
+        ]
+      },
+      {
+        "tag": "civilhod",
+        "patterns": [
+          "Who is hod of civil",
+          "civil hod",
+          "hod civil",
+          "name of civil hod",
+          "civil faculty hod"
+        ],
+        "responses": [
+          "Er. Arjun Poudel is the HOD of civil faculty."
+        ]
+      },
+      {
+        "tag": "clubsintro",
+        "patterns": [
+          "what are the clubs present in kathmandu engineering college?",
+          "how many clubs are present in kathmandu engineering college",
+          "Are there any club in kec",
+          "club name"
+        ],
+        "responses": [
+          "KEC has the following clubs: Kec Electrical Club, Robotics Club, Electronics Project Club (EPC), AKAR (Association Of KEC Architecture), KEC IT Club,CESA-KEC, and KEC Yoga Club."
+        ]
+      },
+      {
+        "tag": "electricalclub",
+        "patterns": [
+          "what is electrical club",
+          "what is ec",
+          "electrical club explain",
+          "electrical club"
+        ],
+        "responses": [
+          "KEC Electrical Club is for electrical engineering students who want to learn more about the field.Workshops, software simulation trainings, lecture programs, and the printing of the annual journal SYNERGY are among the activities organized by the club."
+        ]
+      },
+      {
+        "tag": "roboticsclub",
+        "patterns": [
+          "what is robotics club",
+          "what is rc",
+          "robotics club explain",
+          "robotics club"
+        ],
+        "responses": [
+          "Kathmandu Engineering College's (KEC) Robotics Club is a student-run club created by active and enthusiastic seniors who are passionate about robotics. Robotics Club has been a forerunner in introducing robotics knowledge and technology to KEC."
+        ]
+      },
+      {
+        "tag": "epclub",
+        "patterns": [
+          "what is electronics project club",
+          "what is epc",
+          "electronics project club explain",
+          "epc explain",
+          "electronics project club"
+        ],
+        "responses": [
+          "Electronics Project Club (EPC) is an open platform for students and electronic Kathmandu Engineering College,. The club's purpose is to provide initial training for working with electronic equipment, specifications on hardware/software design and maintenance, and workshops on Embedded System Design, Automation, and Autonomous Robotics."
+        ]
+      },
+      {
+        "tag": "akarclub",
+        "patterns": [
+          "what is akar club",
+          "what is akar",
+          "Association Of KEC Architecture explain",
+          "akar explain",
+          "akar",
+          "Association Of KEC Architecture"
+        ],
+        "responses": [
+          "AKAR is known for its active commitment and participation in a range of educational and non-academic campaigns. AKAR offers an environment for students' creative ideas to grow into a reality. AKAR provides an opportunity for students to expose and improve their creativity through exhibitions, workshops, and challenges."
+        ]
+      },
+      {
+        "tag": "itclub",
+        "patterns": [
+          "what is kec it club",
+          "what is it club",
+          "kec it club explain",
+          "it club explain",
+          "it club",
+          "kec it club",
+          "KEC IT Club"
+        ],
+        "responses": [
+          "KEC IT Club is a student group that provides students with the opportunity to learn on the latest technology in the computer company. The major goal of this club is to share ideas in the IT field and inspiring collaboration, allowing students understand the potential and future of the software industry as a whole."
+        ]
+      },
+      {
+        "tag": "cesaclub",
+        "patterns": [
+          "what is CESA-KEC",
+          "what is cesa kec",
+          "what is cesa",
+          "CESA-KEC explain",
+          " cesa kec explain",
+          "cesa kec",
+          "CESA-KEC",
+          "cesa"
+        ],
+        "responses": [
+          "Civil Engineering Student Association (CESA) is a non-profit, non-political association of Civil Engineering students at KEC.CESA is open to any civil engineering student.Students that support CESA can also become members."
+        ]
+      },
+      {
+        "tag": "yogaclub",
+        "patterns": [
+          "what is yogaclub",
+          "what is yogaclub",
+          "what is yoga",
+          "yogaclub explain",
+          "yogaclub"
+        ],
+        "responses": [
+          "An essential component of KEC is yoga.KEC conducts a number of programs on how to improve your personality and develop life skills through yoga and meditation."
+        ]
+      },
+      {
+        "tag":"civilengineeringseats",
+        "patterns": [
+          "Total number of seats in civil engineering",
+          "civil engineering seat",
+          "seat in civil engineering",
+          "Total number of seats in civil",
+          "civil seat",
+          "seat in civil"
+        ],
+        "responses": [
+          "There are 96 total seats available for civil engineering each year."
+        ]
+      },
+      {
+        "tag":"computerengineeringseats",
+        "patterns": [
+          "Total number of seats in computer engineering",
+          "computer engineering seat",
+          "seat in computer engineering",
+          "Total number of seats in computer",
+          "computer seat",
+          "seat in computer"
+        ],
+        "responses": [
+          "There are 96 total seats available for computer engineering each year."
+        ]
+      },
+      {
+        "tag":"electricalengineeringseats",
+        "patterns": [
+          "Total number of seats in electrical engineering",
+          "electrical engineering seat",
+          "seat in electrical engineering",
+          "Total number of seats in electrical",
+          "electrical seat",
+          "seat in electrical"
+        ],
+        "responses": [
+          "There are 48 total seats available for electrical engineering each year."
+        ]
+      },
+      {
+        "tag":"electronicsengineeringseats",
+        "patterns": [
+          "Total number of seats in electronics engineering",
+          "electronics engineering seat",
+          "seat in electronics engineering",
+          "Total number of seats in electronics",
+          "electronics seat",
+          "seat in electronics"
+        ],
+        "responses": [
+          "There are 96 total seats available for electronics engineering each year."
+        ]
+      },
+      {
+        "tag":"architectureseats",
+        "patterns": [
+          "Total number of seats in architecture engineering",
+          "architecture engineering seat",
+          "seat in architecture engineering",
+          "Total number of seats in architecture",
+          "architecture seat",
+          "seat in architecture"
+        ],
+        "responses": [
+          "There are 48 total seats available for architecture each year."
+        ]
+      },
+      {
+        "tag": "boyshostel",
+        "patterns": [
+        "Is there a boy hostel in Kec?",
+        "Does Kec have a boy hostel?",
+        "Does Kec offer boy hostels?"
+      ],
+      "responses": [
+        "KEC has a modern boys hostel on its premises. With a warden, guards, and service staff, it has a strong security system."
+      ]
+    },
+      {
+        "tag": "girlshostel",
+        "patterns": [
+          "Is there girls hostel in Kec?",
+          "Does Kec have a girls hostel?",
+          "Does Kec offer girls hostels?"
+        ],
+        "responses": [
+          "There is a girls' hostel at KEC. The hostel is an excellent place to study and focus because of its wonderful atmosphere. Complete with a warden, guard, and service staff, it has an outstanding security system."
+        ]
+      },
+      {
+        "tag":"principal",
+        "patterns": [
+          "who is the principal of kec",
+          "kec principal",
+          "principal name",
+          "what is the name of kec principal"
+        ],
+        "responses": [
+          "KEC's principal is Prof. Er. Hirendra Man Pradhan."
+        ]
+      },
+      {
+        "tag":"chairman",
+        "patterns": [
+          "who is the chairman of kec",
+          "kec chairman",
+          "chairman name",
+          "what is the name of kec chairman"
+        ],
+        "responses": [
+          "KEC's chairman is Prof. Er. Hirendra Man Pradhan."
+        ]
+      },
+      {
+        "tag":"viceprincipal",
+        "patterns": [
+          "who is the vice principal of kec",
+          "kec vice principal",
+          "vice principalname",
+          "what is the name of kec vice principal"
+        ],
+        "responses": [
+          "KEC's vice principal is Associate Prof. Shailita Manandhar Joshi."
+        ]
+      },
+     {
+       "tag": "projectinfo",
+       "patterns": [
+         "do we have to do project in every semester",
+         "is there project also in syllabus",
+         "is project also exam"
+       ],
+       "responses": [
+         "Project is listed under IOE syllabus named as minor and major for some faculties and only major for other,Please ask about respective faculty"
+       ]
+     },
+     {
+       "tag": "computerprojects",
+       "patterns":[
+         "how many projects should we do in computer",
+         "total projects in computer",
+         "how many projects should we submit to the computer department"
+       ],
+       "responses": [
+         "We have two projects in the computer faculty: minor projects and major projects.The fifth and sixth semesters have been utilized for minor projects, and the seventh and eighth semesters have been utilized for major projects."
+     ]
+     },
+     {
+       "tag": "electronicsprojects",
+       "patterns":[
+         "how many projects should we do in electronics",
+         "total projects in electronics",
+         "how many projects should we submit to the electronics department"
+       ],
+       "responses": [
+         "We have two projects in the electronics faculty: minor projects and major projects.The fifth and sixth semesters have been utilized for minor projects, and the seventh and eighth semesters have been utilized for major projects."
+       ]
+     },
+     {
+     "tag": "electricalprojects",
+     "patterns":[
+       "how many projects should we do in electrical",
+       "total projects in electrical",
+       "how many projects should we submit to the electrical department"
+     ],
+     "responses": [
+       "We have one project in the electrical faculty:major project.The the seventh and eighth semesters have been utilized for major projects."
+       ]
+     },
+     {
+       "tag": "civilprojects",
+       "patterns":[
+         "how many projects should we do in civil",
+         "total projects in civil",
+         "how many projects should we submit to the civil department"
+       ],
+       "responses": [
+         "We have one project in the civil faculty:major project.The the seventh and eighth semesters have been utilized for major projects."
+       ]
+     },
+     {
+       "tag": "defenseproject",
+       "patterns": [
+         "how many defense do we have in one project",
+         "total defense in one project",
+         "how many defense in taken for one project"
+       ],
+       "responses": [
+         "We have proposal defense, mid-term defense, pre-final defense, and final defense taken at specific intervals in between project."
+       ]
+     },
+     
+    {
+      "tag": "projectsupervisor",
+      "patterns": [
+        "Are there any one who help with project",
+        "should the project be done all alone",
+        "who helps with project"
+      ],
+      "responses": [
+        "Every project group has a supervisor assigned to it so that students can more easily communicate any issues or confusion they may be having with their project."
+      ]
+    },
+    {
+      "tag": "presentationdefenseproject",
+      "patterns": [
+        "What is the time frame for defense presentation",
+        "time for presentation in defense",
+        "presentation time defense",
+        "presentation time"
+      ],
+      "responses": [
+        "The defense presentation will take ten minutes in total."
+      ]
+    },
+    
+    {
+      "tag": "projectmarks",
+      "patterns": [
+        "what is the total marks carried by project",
+        "total project marks",
+        "project full mark"
+      ],
+      "responses": [
+        "For a project, the full marks is 75."
+      ]
+    },
+    {
+      "tag": "internalmarks",
+      "patterns": [
+        "what is the total marks given by internal",
+        "internal marks by teacher for project",
+        "project internal marks"
+      ],
+      "responses": [
+        "For a project, the college gets a total of 50 marks"
+      ]
+    },
+    {
+      "tag": "externalmarks",
+      "patterns":[
+      "what is the total marks given by external",
+      "externall marks by teacher for project",
+      "project external marks"
+    ],
+      "responses": [
+        "For a project, the externak gives a total of 25 marks"
+      ]
+   },
+   {
+    "tag": "adt",
+    "patterns": [
+      "what is the full marks and pass marks for adt",
+      "adt full marks and pass marks",
+      "f.m adt",
+      "p m adt"
+    ],
+    "responses": [
+      "Full Marks for an assesment is 20 and Pass marks for an assesment is 8."
+    ]
+  },
+   {
+    "tag": "assesment",
+    "patterns": [
+      "what is the full marks and pass marks for assesment",
+      "assesment full marks and pass marks",
+      "f.m asesment",
+      "p m asesment"
+    ],
+    "responses": [
+      "Full Marks for an assesment is 50 and Pass marks for an assesment is 20."
+    ]
+  },
+   {
+     "tag": "placeadt",
+     "patterns":[
+       "In which class we should give adt",
+       "where to give adt",
+       "where is my class in adt",
+       "which class to give adt"
+   ],
+     "responses": [
+       "Before the actual date, notice of the class arrangement for that particular adt will be released, indicating where we must go based on our roll number for that particular class."
+     ]
+   },
+   {
+     "tag": "numberadt",
+     "patterns": [
+       "how many adt do we have to give in total in one sem",
+       "how many adt is there in one sem",
+       "adt in one sem"
+     ],
+     "responses": [
+       "In a semester, college administers two adt and one final assessment for internal grades."
+     ]
+   },
+   
+  
+   {
+     "tag": "adtfail",
+     "patterns": [
+       "what happens if a person fails in all adt",
+       "what happens if a student doesnot pass in any adt",
+       "student fails in all adt"
+     ],
+     "responses": [
+       "A student will not be qualified to sit for the IOE board exam if they receive failing grades on all of the exams administered by college for internal marks."
+     ]
+   },
+   {
+     "tag": "totalinternlmarks",
+     "patterns": [
+       "what is the total internal marks for theory",
+       "total internal marks of a subject",
+       "subject internal marks"
+     ],
+     "responses": [
+       "A student must receive a passing score of 8 out of 20 internal marks in order to be eligible for the boards exam."
+     ]
+   },
+     {
+       "tag": "collegetime",
+       "patterns": [
+         "what is the college time?",
+         "college time",
+         "kec college time"
+       ],
+       "responses": [
+         " The college is open from 9:00 am to 5:00 pm, Monday through Friday."
+       ]
+     },
+     {
+       "tag": "classtime",
+       "patterns": [
+         "what is the class time?",
+         "class time",
+         "kec class time",
+         "one subject class time"
+       ],
+       "responses": [
+         "Although a class period lasts 45 minutes, an hour and forty-five minutes are often dedicated to a particular subject."
+       ]
+     },
+    
+     {
+       "tag": "breaktime",
+       "patterns":[
+         "total break time",
+         "break minutes",
+         "how many minutes breaktime is given"
+       ],
+       "responses": [
+         "Students get access to the forty-minute break."
+       ]
+     },
+     {
+       "tag": "collegelocation",
+       "patterns": [
+         "Where is kec located",
+         "where is this college located",
+         "location of kec",
+         "address",
+         "Where is kec"
+       ],
+       "responses": [
+         "Our college is located at kalimati,kathmandu.For detailed direction <a target=\"_blank\" href=\"https://maps.app.goo.gl/CPpCvJfDe2wkCBr3A\">visit here</a>"
+       ]
+     },
+     {
+       "tag":"parkinglocation",
+       "patterns": [
+         "Where is parking located",
+         "where is parking of this college located",
+         "parking location of kec",
+         "parking",
+         "Where is parking"
+       ],
+       "responses": [
+         "KEC's parking is located in Block F's basement."
+           ]
+         },
+         {
+           "tag":"librarylocation",
+           "patterns": [
+             "Where is library located",
+             "where is library of this college located",
+             "library location of kec",
+             "library",
+             "Where is library"
+           ],
+           "responses": [
+             "KEC's library is located in Block F."
+               ]
+             },
+             {
+               "tag":"chairmanofficelocation",
+               "patterns": [
+                 "Where is chairman office located",
+                 "where is chairman office of this college located",
+                 "chairman office location of kec",
+                 "chairman office",
+                 "Where is chairman office"
+               ],
+               "responses": [
+                 "KEC's chairman office is located in Block F."
+                 ]
+             },
+         {
+           "tag":"principallocation",
+           "patterns": [
+             "Where is principal office located",
+             "where is principal office of this college located",
+             "principal office location of kec",
+             "principal office",
+             "Where is principal office"
+           ],
+           "responses": [
+             "KEC chairman office is located in Block F."
+           ]
+         },
+     {
+       "tag":"viceprincipallocation",
+       "patterns": [
+         "Where is vice-principal office located",
+         "where is vice-principal office of this college located",
+         "vice-principal office location of kec",
+         "viceprincipal office",
+         "Where is viceprincipal office"
+       ],
+       "responses": [
+         "KEC vice-principal office is located in Block F."
+       ]
+     },
+     {
+       "tag":"computerdepartlocation",
+       "patterns": [
+         "Where is computer department located",
+         "where is computer department of this college located",
+         "computer department location of kec",
+         "computer department ",
+         "Where is computer department"
+       ],
+       "responses": [
+         "KEC computer department is located in Block F."
+       ]
+     },
+     {
+       "tag":"civildepartlocation",
+       "patterns": [
+         "Where is civil department located",
+         "where is civil department of this college located",
+         "civil department location of kec",
+         "civil department ",
+         "Where is civil department"
+       ],
+       "responses": [
+         "KEC civil department is located in Block F."
+       ]
+     },
+   
+     {
+       "tag":"electricaldepartlocation",
+       "patterns": [
+         "Where is electrical department located",
+         "where is electrical department of this college located",
+         "electrical department location of kec",
+         "electrical department ",
+         "Where is electrical department"
+       ],
+       "responses": [
+         "KEC electrical department is located in Block F."
+       ]
+     },
+     {
+       "tag":"conferencehalllocation",
+       "patterns": [
+         "Where is conferencehall located",
+         "where is conferencehall of this college located",
+         "conferencehall location of kec",
+         "conferencehall ",
+         "Where is conference hall"
+       ],
+       "responses": [
+         "KEC conference hall is located in Block F."
+       ]
+     },
+     {
+       "tag":"electronicsdepartlocation",
+       "patterns": [
+         "Where is electronics department located",
+         "where is electronics department of this college located",
+         "electronics department location of kec",
+         "electronics department ",
+         "Where is electronics department"
+       ],
+       "responses": [
+         "KEC electronics department is located in Block E."
+       ]
+     },
+     {
+       "tag":"architecturedepartlocation",
+       "patterns": [
+         "Where is architecture department located",
+         "where is architecture department of this college located",
+         "architecture department location of kec",
+         "architecture department ",
+         "Where is architecture department"
+       ],
+       "responses": [
+         "KEC architecture department is located in Block E."
+       ]
+     },
+     {
+       "tag":"appliedsciencedepartlocation",
+       "patterns": [
+         "Where is appliedscience department located",
+         "where is appliedscience department of this college located",
+         "appliedscience department location of kec",
+         "appliedscience department ",
+         "Where is appliedscience department"
+       ],
+       "responses": [
+         "KEC applied science department is located in Block E."
+       ]
+     },
+     {
+       "tag":"accountsectionlocation",
+       "patterns": [
+         "Where is account section located",
+         "where is account section of this college located",
+         "accountsection location of kec",
+         "accountsection ",
+         "Where is accountsection"
+       ],
+       "responses": [
+         "KEC account section is located in Block E."
+       ]
+     },
+     {
+       "tag":"canteenlocation",
+       "patterns": [
+         "Where is canteen located",
+         "where is canteen of this college located",
+         "canteen location of kec",
+         "canteen  ",
+         "Where is canteen",
+         "cafeteria"
+       ],
+       "responses": [
+         {
+          "text": "KEC canteen is located in Block E.",
+          "url": "https://th.bing.com/th/id/R.2a7df4f047ac2f23137e03aed0cbca88?rik=e1WMsZ7BcXqQEw&pid=ImgRaw&r=0"
+        }
+       ]
+     },
+     {
+       "tag":"guidanceandcontrollingunitlocation",
+       "patterns": [
+         "Where is guidance and controlling unit located",
+         "where is guidance and controlling unit  of this college located",
+         "guidanceandcontrolling unit location of kec",
+         "guidanceandcontrollingunit",
+         "Where is guidanceandcontrollingunit"
+       ],
+       "responses": [
+         "KEC guidance and controlling unit is located in Block E."
+       ]
+     },
+     {
+       "tag":"edclocation",
+       "patterns": [
+         "Where is Edc lab located",
+         "where is Edc lab of this college located",
+         "Edc lab location of kec",
+         "Edc lab",
+         "Where is Edc lab"
+       ],
+       "responses": [
+         "KEC Edc lab is located in Block E."
+       ]
+     },
+     {
+       "tag":"digitallogiclocation",
+       "patterns": [
+         "Where is digital logic located",
+         "where is digital logic lab of this college located",
+         "digital logic lab location of kec",
+         "digital logic lab",
+         "Where is logic lab"
+       ],
+       "responses": [
+         "KEC digital logic lab is located in Block E."
+       ]
+     },
+     {
+       "tag":"bellablocation",
+       "patterns": [
+         "Where is bellab located",
+         "where is bel lab of this college located",
+         " bel lab location of kec",
+         "bel lab",
+         "Where is bel lab"
+       ],
+       "responses": [
+         "KEC bel lab is located in Block E."
+       ]
+     },
+     {
+      "tag":"communicationlablocation",
+      "patterns": [
+        "Where is communicationlab located",
+        "where is communication lab of this college located",
+        "communication lab location of kec",
+        "communication lab",
+        "Where is communication lab"
+      ],
+      "responses": [
+        "KEC communication lab is located in Block E."
+      ]
+    },
+    {
+      "tag":"projectlablocation",
+      "patterns": [
+        "Where is projectlab located",
+        "where is project lab of this college located",
+        "project lab location of kec",
+        "project lab",
+        "Where is project lab"
+      ],
+      "responses": [
+        "KEC project lab is located in Block E."
+      ]
+    },
+    {
+      "tag":"physicslablocation",
+      "patterns": [
+        "Where is physicslab located",
+        "where is physics lab of this college located",
+        "physics lab location of kec",
+        "physics lab",
+        "Where is physics lab"
+      ],
+      "responses": [
+        "KEC physics lab is located in Block E."
+      ]
+    },
+    {
+      "tag":"seminarhallslocation",
+      "patterns": [
+        "Where is seminarhall located",
+        "where is seminarhall of this college located",
+        "seminarhall location of kec",
+        "seminarhall",
+        "Where is seminarhall"
+      ],
+      "responses": [
+        "KEC seminar hall is located in Block E."
+      ]
+    },
+    {
+      "tag": "powerlablocation",
+      "patterns": [
+        "Where is powerlab located",
+        "where is power lab of this college located",
+        "power lab location of kec",
+        "power lab",
+        "Where is power lab"
+      ],
+      "responses": [
+        "KEC power lab is located in Block D."
+      ]
+    },
+    {
+      "tag": "thermolablocation",
+      "patterns": [
+        "Where is thermolab located",
+        "where is thermodynamics lab of this college located",
+        "thermo lab location of kec",
+        "thermo lab",
+        "Where is thermo lab"
+      ],
+      "responses": [
+        "KEC thermo lab is located in Block D."
+      ]
+    },
+    {
+      "tag": "workshoplablocation",
+      "patterns": [
+        "Where is workshop located",
+        "where is workshop lab of this college located",
+        "workshop lab location of kec",
+        "workshop lab",
+        "Where is workshop lab"
+      ],
+      "responses": [
+        "KEC workshop lab is located in Block D."
+      ]
+    },
+    {
+      "tag": "administrationlocation",
+      "patterns": [
+        "Where is administration located",
+        "where is administration of this college located",
+        "administration location of kec",
+        "administration",
+        "Where is administration"
+      ],
+      "responses": [
+        "KEC administration is located in Block D."
+      ]
+    },
+    {
+      "tag": "examsectionlocation",
+      "patterns": [
+        "Where is examsection located",
+        "where is examsection of this college located",
+        "examsection location of kec",
+        "examsection",
+        "Where is examsection"
+      ],
+      "responses": [
+        "KEC exam section is located in Block D."
+      ]
+    },
+    {
+      "tag": "stationarylocation",
+      "patterns": [
+        "Where is stationary located",
+        "where is stationary of this college located",
+        "stationary location of kec",
+        "stationary",
+        "Where is stationary"
+      ],
+      "responses": [
+        "KEC stationary is located in Block D."
+      ]
+    },
+    {
+      "tag": "carpentrylocation",
+      "patterns": [
+        "Where is carpentry located",
+        "where is carpentry of this college located",
+        "carpentry location of kec",
+        "carpentry",
+        "Where is carpentry"
+      ],
+      "responses": [
+        "KEC carpentry is located in Block D."
+      ]
+    },
+    {
+      "tag": "chemistrylablocation",
+      "patterns": [
+        "Where is chemistrylab located",
+        "where is chemistry lab of this college located",
+        "chemistry lab location of kec",
+        "chemistry lab",
+        "Where is chemistry lab"
+      ],
+      "responses": [
+        "KEC chemistry lab is located in Block D."
+      ]
+    },
+    {
+      "tag": "hydroicslablocation",
+      "patterns": [
+        "Where is hydroicslab located",
+        "where is hydroics lab of this college located",
+        "hydroics lab location of kec",
+        "hydroics lab",
+        "Where is hydroics lab"
+      ],
+      "responses": [
+        "KEC hydroics lab is located in Block C."
+      ]
+    },
+    {
+      "tag": "surveylablocation",
+      "patterns": [
+        "Where is surveylab located",
+        "where is survey lab of this college located",
+        "survey lab location of kec",
+        "survey lab",
+        "Where is survey lab"
+      ],
+      "responses": [
+        "KEC survey lab is located in Block C."
+      ]
+    },
+    {
+      "tag": "geologylablocation",
+      "patterns": [
+        "Where is geologylab located",
+        "where is geology lab of this college located",
+        "geology lab location of kec",
+        "geology lab",
+        "Where is geology lab"
+      ],
+      "responses": [
+        "KEC geology lab is located in Block C."
+      ]
+    },
+    {
+      "tag": "civilheavyequiplablocation",
+      "patterns": [
+        "Where is civil heavy equip lab located",
+        "where is civil heavy equip lab of this college located",
+        "civilheavyequip lab location of kec",
+        "civilheavyequip lab",
+        "Where is civilheavyequip lab"
+      ],
+      "responses": [
+        "KEC civil heavy equip lab is located in Block C."
+      ]
+    },
+    {
+      "tag": "examheadofficelocation",
+      "patterns": [
+        "Where is examhead officelocated",
+        "where is examhead of this college located",
+        "examhead location of kec",
+        "examhead",
+        "Where is examhead"
+      ],
+      "responses": [
+        "KEC examhead office is located in Block C."
+      ]
+    },
+    {
+      "tag": "chiefadministratorofficelocation",
+      "patterns": [
+        "Where is chief administrator office located",
+        "where is chief administrator of this college located",
+        "chief administrator location of kec",
+        "chief administrator",
+        "Where is chief administrator"
+      ],
+      "responses": [
+        "KEC chief administrato office is located in Block C."
+      ]
+    },
+    {
+        "tag": "computerfacultymembers",
+        "patterns": [
+          "who are the faculty members of computer department",
+          "computer department faculty member",
+          "computer faculty member",
+          "कम्प्युटरको संकाय सदस्य कोको हुन् ?",
+          "कम्प्युट संकाय सदस्य "
+        ],
+        "responses": [
+          {
+            "text": "Computer Faculty Members:",
+            "table": {
+              "headers": ["Name", "Position"],
+              "rows": [
+                ["Er. Sudeep Shakya", "HOD / Associate Professor"],
+                ["Er. Kunjan Amatya", "Dy. HOD / Associate professor/ Research Member"],
+                ["Er. Mahesh Singh Kathayat", "Academic Advisor / Associate Professor"],
+                ["Er. Shyam Dahal", "Hostel Warden / Associate Professor"],
+                ["Er. Shree Krishna Sulu", "Dy. Exam Head / Associate Professor"],
+                ["Er. Nabin Neupane", "3rd Year Coordinator / Associate Professor"],
+                ["Er. Sharad Chandra Joshi", "Associate Professor / Major Project Coordinator"],
+                ["Er. Anju Khanal", "Sr. Lecturer"],
+                ["Er. Sharad Neupane", "Sr. Lecturer/1st Year Coordinator"],
+                ["Er. Ritu Bajracharya", "Lecturer/ 2nd Year Coordinator"],
+                ["Er. Krishta Byanju", "Assistant Lecturer/ Minor Project Coordinator"]
+              ]
+            }
+          }
+        ]
+    },
+  
+    {
+      "tag": "civilfacultymembers",
+      "patterns": [
+        "who are the faculty members of civil department",
+        "civil department faculty member",
+        "civil faculty member",
+        "सिविलको संकाय सदस्य कोको हुन् ?",
+        "सिविल संकाय सदस्य "
+      ],
+      "responses": [
+        {
+          "text": "Civil Faculty Members:",
+          "table": {
+            "headers": ["Name", "Position"],
+            "rows": [
+               ["Er. Arjun Poudel", "HOD / Associate Professor"],
+               ["Er. Ramesh Kaphle",	"Dy. HOD / Associate Professor/ Research Member"],
+               ["Er. Ishwar Adhikari", "Associate Professor / Sports Chief"],
+               ["Er. Bimal Bhattarai",	"Associate Professor / Placement Co-ordinator"],
+               ["Er. Rajan Nhemaphuk",	"Senior Lecturer / 4th yr Co-ordinator"],
+               ["Er. Harshikesh Kr. Karna",	"Sr. Lecturer/ 2nd yr Co-ordinator"],
+               ["Er. Nimesh Karki", "Lecturer / 3rd Year Co-ordinator "],
+               ["Er. Sumona Bajracharya", "Lecturer / 1st year co-ordinator"],
+               ["Er. Abhishek Bhattarai",	"Lecturer / Lab Co-ordinator"],
+               ["Er. Shantosh Khadka",	"Lecturer"],
+               ["Er. Bikram Shah",	"Lecturer"],
+               ["Er. Abhishek Poudel",	"Lecturer"]
+            ]
+          }
+        }
+      ]
+  },
+      
+  {
+   "tag": "electricalfacultymembers",
+   "patterns": [
+     "who are the faculty members of electrical department",
+     "electrical department faculty member",
+     "electrical faculty member",
+     "इलेक्ट्रिकलको संकाय सदस्य कोको हुन् ?",
+     "इलेक्ट्रिकल संकाय सदस्य "
+   ],
+   "responses": [
+     {
+       "text": "Electrical Faculty Members:",
+       "table": {
+         "headers": ["Name", "Position"],
+         "rows": [
+            ["Er. Binod Bhandari","HOD / Associate Professor"],
+            ["Er. Md. Jalaluddin Rayeen","Senior Lecturer"],
+            ["Er. Manoj Raj Dhungana","Senior Lecturer / 3rd & 4th Year Co-ordinator"],
+            ["Er. Baijnath Agrahari"	,"Lecturer / 1st & 2nd Year Coordinator"],
+            ["Er. Chitra Bdr. Khadka",	"Chief Lab Incharge"]
+         ]
+       }
+     }
+   ]
+    },
+    {
+        "tag": "electronicsfacultymembers",
+        "patterns": [
+            "who are the faculty members of electronics department",
+            "electronics department faculty member",
+            "electronics faculty member",
+            "इलेक्ट्रोनिक्सको संकाय सदस्य कोको हुन् ?",
+            "इलेक्ट्रोनिक्स संकाय सदस्य "
+        ],
+        "responses": [
+            {
+            "text": "Electronics Faculty Members:",
+            "table": {
+                "headers": ["Name", "Position"],
+                "rows": [
+                    ["Er. Rajan Lama",	"HOD/ Associate Professor"],
+                    ["Er. Suramya Sharma Dahal",	"Dy. HOD Associate Professor /Research Member"],
+                    ["Er. Sagun Manandhar",	"Associate Professor / Research Member"],
+                    ["Er. Anmol Ratna Bajracharya"	,"Associate Professor / Research Member"],
+                    ["Er. Smriti Nakarmi",	"2nd & 3rd Year Coordinator / Associate Professor"], 
+                    ["Er. Ravi Poudel"	,"1st & 4th Year Coordinator / Associate Professor"],
+                    ["Er. Gaurav Gautam"	,"Lab Coordinator / Associate Professor"],
+                    ["Er. Sujan Shrestha",	"Minor Project Coordinator / Senior Lecture"],
+                    ["Dr. Dipen Manandhar"	,"Major Project Coordinator / Senior Lecturer"],
+                    ["Er. Pushpa Dhamala"	,"Associate Professor"],
+                    ["Er. Rubi Kumari Mahato",	"Senior   Lecturer"],
+                    ["Er. Dhawa Sang Dong",	"Lecturer/ Research Member"],
+                    ["Er. Sarina Barahi",	"Lecturer"]
+                ]
+        }
+        }
+    ]
+    },
+    {
+    "tag": "architecturefacultymembers",
+    "patterns": [
+        "who are the faculty members of architecture department",
+        "architecture department faculty member",
+        "architrecture faculty member",
+        "आर्किटेक्चरको संकाय सदस्य कोको हुन् ?",
+        "आर्किटेक्चर संकाय सदस्य "
+    ],
+    "responses": [
+        {
+        "text": "Architecture Faculty Members:",
+        "table": {
+            "headers": ["Name", "Position"],
+            "rows": [
+                ["Ar. Shailita Manandhar",	"Vice Principal / Associate Professor"],
+                ["Ar. Moon Singh Dongol",	"HOD / Associate Professor"], 
+                ["Ar. Sweta Shrestha",	"Dy. HOD/ Associate Professor  / Research Member"],    
+                ["Ar. Kailash Shrestha"	,"Associate Professor"],
+                ["Ar. Subash Phuyal"	,"Associate Professor / 4th & 5th year co-ordinator/ Thesis Co-ordinator"],
+                ["Ar. Pranita Sharma Pandey",	"Associate Professor  / Research Member"],    
+                ["Ar. Suchita Bajracharya",	"Associate Professor / 2nd & 3rd  year Co-ordinator"],
+                ["Ar, Pratibha Manandhar",	"Associate Professor /  1st year Co-ordinator"],
+                ["Ar. Sagun Maharjan",	"Senior Lecturer"] 
+                ]
+        }
+        }
+    ]
+    },
+    {
+      "tag":"routine",
+      "patterns": [
+        "Routine of class",
+        "provide me routine",
+        "routine of iv/i",
+        "routine of computer faculty",
+        "routine of computer 4th sem",
+        "routine of elctronics 4th sem"
+      ],
+      "responses": [
+        {
+         "text": "Routine:",
+         "url": "https://iwannanap1.github.io/chatbot/images/routine4.jpg"  
+       }
+      ]
+    },
+    {
+      "tag":"adtroutine",
+      "patterns": [
+        "Adt Routine ",
+        "provide me routine of adt",
+        "adt routine",
+        "routine of computer faculty adt",
+        "routine of computer 4th sem adt",
+        "adt routine"
+      ],
+      "responses": [
+        {
+         "text": "ADT Routine:",
+         "url": "https://iwannanap1.github.io/chatbot/images/adt2.jpg"  
+       }
+      ]
+    }
+  ]
+  }    

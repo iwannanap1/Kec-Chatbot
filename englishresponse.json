@@ -1,0 +1,612 @@
+{
+    "greeting": "Hi,I am KEC Chatbot.If you have any questions,feel free to ask.",
+    "goodbye": "Thankyou for using our Chatbot.Have a great day.",
+    "aboutme": "I am KEC Chatbot.",
+    "error": "Please ask questions in undrestandable form.",
+    "courses": "Bachelor courses offered are:Bachelors in Architecture,\n Bachelors in Civil Engineering,\nBachelors in Computer Engineering,\nBachelors in Electrical Engineering,\nBachelors in Electronics Communication and Information Engineering",
+    "applicationchecklist": "The applicant needs to provide the following materials:\n• Character certificates, mark sheets, and transcripts for SLC, ISC, 10+2, I.E., A Level, and CBSE\n• One picture of each parent or guardian and two passport-sized images of the student.\n• A duplicate of their passport\n• Migration certificate; • 200-marks math certificate for applicants in the biological or physical group.\n• The original score card from IOE, Pulchowk, must to be turned in when applying for admission.",
+    "attendance": "In order to participate in the IOE final test, students must maintain a minimum of 75% attendance.",
+    "disqualification": "A student will be subject to disqualification if they: • Don't keep up a minimum of 75% attendance for the entire semester.\n• The student fails to pass the tests that are given over the semester. The subject teacher in question must make the recommendation for disqualification.",
+    "idcard": "While on college property, students must always have the identity card that was issued to them.",
+    "uniform": "The following is the required student attire:\nThe college-mandated tie, black shoes, a white shirt, and a navy blue coat, jacket, or coat",
+    "computerhod": "Er. Sudeep Shakya is the HOD of computer faculty.",
+    "architecuterhod": " Ar. Moon Singh Dongol is the HOD of architecture faculty.",
+    "electronicshod": "Er. Rajan Lama is the HOD of electronics faculty.",
+    "electricalhod": "Er. Binod Bhandari is the HOD of electrical faculty.",
+    "mechanicalhod": "Er. Manchan Tiwari is the HOD of mechanical faculty.",
+    "civilhod": "Er. Arjun Poudel is the HOD of civil faculty.",
+    "clubsintro": "KEC has the following clubs: Kec Electrical Club, Robotics Club, Electronics Project Club (EPC), AKAR (Association Of KEC Architecture), KEC IT Club,CESA-KEC, and KEC Yoga Club.",
+    "electricalclub": "KEC Electrical Club is for electrical engineering students who want to learn more about the field.Workshops, software simulation trainings, lecture programs, and the printing of the annual journal SYNERGY are among the activities organized by the club.",
+    "roboticsclub": "Kathmandu Engineering College's (KEC) Robotics Club is a student-run club created by active and enthusiastic seniors who are passionate about robotics. Robotics Club has been a forerunner in introducing robotics knowledge and technology to KEC.",
+    "epclub": "Electronics Project Club (EPC) is an open platform for students and electronic Kathmandu Engineering College,. The club's purpose is to provide initial training for working with electronic equipment, specifications on hardware/software design and maintenance, and workshops on Embedded System Design, Automation, and Autonomous Robotics.",
+    "akarclub": "AKAR is known for its active commitment and participation in a range of educational and non-academic campaigns. AKAR offers an environment for students' creative ideas to grow into a reality. AKAR provides an opportunity for students to expose and improve their creativity through exhibitions, workshops, and challenges.",
+    "itclub": "KEC IT Club is a student group that provides students with the opportunity to learn on the latest technology in the computer company. The major goal of this club is to share ideas in the IT field and inspiring collaboration, allowing students understand the potential and future of the software industry as a whole.",
+    "cesaclub": "Civil Engineering Student Association (CESA) is a non-profit, non-political association of Civil Engineering students at KEC.CESA is open to any civil engineering student.Students that support CESA can also become members.",
+    "yogaclub": "An essential component of KEC is yoga.KEC conducts a number of programs on how to improve your personality and develop life skills through yoga and meditation.",
+    "civilengineeringseats": "There are 96 total seats available for civil engineering each year.",
+    "computerengineeringseats": "There are 96 total seats available for computer engineering each year.",
+    "electricalengineeringseats": "There are 48 total seats available for electrical engineering each year.",
+    "electronicsengineeringseats": "There are 96 total seats available for electronics engineering each year.",
+    "architectureseats": "There are 48 total seats available for architecture each year.",
+    "boyshostel": "KEC has a modern boys hostel on its premises. With a warden, guards, and service staff, it has a strong security system.",
+    "girlshostel": "There is a girls' hostel at KEC. The hostel is an excellent place to study and focus because of its wonderful atmosphere. Complete with a warden, guard, and service staff, it has an outstanding security system.",
+    "principal": "KEC's principal is Prof. Er. Hirendra Man Pradhan.",
+    "chairman": "KEC's chairman is Prof. Er. Hirendra Man Pradhan.",
+    "viceprincipal": "KEC's vice principal is Associate Prof. Shailita Manandhar Joshi.",
+    "projectinfo": "Project is listed under IOE syllabus named as minor and major for some faculties and only major for other,Please ask about respective faculty",
+    "computerprojects": "We have two projects in the computer faculty: minor projects and major projects.The fifth and sixth semesters have been utilized for minor projects, and the seventh and eighth semesters have been utilized for major projects.",
+    "electronicsprojects": "We have two projects in the electronics faculty: minor projects and major projects.The fifth and sixth semesters have been utilized for minor projects, and the seventh and eighth semesters have been utilized for major projects.",
+    "electricalprojects": "We have one project in the electrical faculty:major project.The the seventh and eighth semesters have been utilized for major projects.",
+    "civilprojects": "We have one project in the civil faculty:major project.The the seventh and eighth semesters have been utilized for major projects.",
+    "defenseproject": "We have proposal defense, mid-term defense, pre-final defense, and final defense taken at specific intervals in between project.",
+    "projectsupervisor": "Every project group has a supervisor assigned to it so that students can more easily communicate any issues or confusion they may be having with their project.",
+    "presentationdefenseproject": "The defense presentation will take ten minutes in total.",
+    "projectmarks": "For a project, the full marks is 75.",
+    "internalmarks": "For a project, the college gets a total of 50 marks",
+    "externalmarks": "For a project, the externak gives a total of 25 marks",
+    "exam": "There are total 3 internal exams which includes two A.D.Ts and one final assessment. These exams are conducted each month. Full Marks for an A.D.T is 20 and Pass marks is 8. Full Marks for final internal exam (Assessment) is 50 and Pass Marks is 20. Before the actual date,routine and notice of the class arrangement for that particular adt will be released, indicating where we must go based on our roll number for that particular class.",
+    "adtfail": "A student will not be qualified to sit for the IOE board exam if they receive failing grades on all of the exams administered by college for internal marks.",
+    "totalinternlmarks": "A student must receive a passing score of 8 out of 20 internal marks in order to be eligible for the boards exam.",
+    "collegetime": " The college is open from 9:00 am to 5:00 pm, Monday through Friday. Although a class period lasts 45 minutes, an hour and forty-five minutes are often dedicated to a particular subject with 45 minutes of break once a day.",
+    "collegelocation": "Our college is located at kalimati,kathmandu.For detailed direction <a target=\"_blank\" href=\"https://maps.app.goo.gl/CPpCvJfDe2wkCBr3A\">visit here</a>",
+    "departmentlocation": {
+        "text": "Departments Location",
+        "table": {
+            "headers": [
+                "Department",
+                "Location"
+            ],
+            "rows": [
+                [
+                    "Computer",
+                    "Block F 2nd floor"
+                ],
+                [
+                    "Civil",
+                    "Block F 3rd floor"
+                ],
+                [
+                    "Electrical",
+                    "Block F 4th floor"
+                ],
+                [
+                    "Electronics",
+                    "Block E"
+                ],
+                [
+                    "Architecture",
+                    "Block E"
+                ],
+                [
+                    "Applied Science",
+                    "Block E"
+                ],
+                [
+                    "Account Section",
+                    "Block E ground floor"
+                ],
+                [
+                    "Library",
+                    "Block F ground floor"
+                ],
+                [
+                    "Canteen",
+                    "Block E ground floor"
+                ],
+                [
+                    "Parking",
+                    "Underground Parking at Block F"
+                ],
+                [
+                    "conference hall",
+                    "Block F Top floor"
+                ],
+                [
+                    "principal office",
+                    "Block F 1st floor"
+                ],
+                [
+                    "vice principal office",
+                    "Block E"
+                ],
+                [
+                    "chief administrator",
+                    "Block C"
+                ],
+                [
+                    "computer department labs",
+                    "Block E 1st floor"
+                ],
+                [
+                    "physics lab",
+                    "Block E Top floor"
+                ],
+                [
+                    "Chemistry lab",
+                    "Block D 2nd floor"
+                ],
+                [
+                    "Communication English Lab",
+                    "Block E Top Floor"
+                ],
+                [
+                    "stationery",
+                    "Block D ground floor"
+                ],
+                [
+                    "carpentry",
+                    "Block D"
+                ],
+                [
+                    "seminar hall",
+                    "Block E Top floor"
+                ],
+                [
+                    "power, workshop, thermo labs",
+                    "Block D"
+                ],
+                [
+                    "Administration",
+                    "Block D"
+                ],
+                [
+                    "Exam section",
+                    "Block D"
+                ],
+                [
+                    "civil faculty labs",
+                    "Block C"
+                ]
+            ]
+        }
+    },
+    "computerfacultymembers": {
+        "text": "Computer Faculty Members:",
+        "table": {
+            "headers": [
+                "Name",
+                "Position"
+            ],
+            "rows": [
+                [
+                    "Er. Sudeep Shakya",
+                    "HOD / Associate Professor"
+                ],
+                [
+                    "Er. Kunjan Amatya",
+                    "Dy. HOD / Associate professor/ Research Member"
+                ],
+                [
+                    "Er. Mahesh Singh Kathayat",
+                    "Academic Advisor / Associate Professor"
+                ],
+                [
+                    "Er. Shyam Dahal",
+                    "Hostel Warden / Associate Professor"
+                ],
+                [
+                    "Er. Shree Krishna Sulu",
+                    "Dy. Exam Head / Associate Professor"
+                ],
+                [
+                    "Er. Nabin Neupane",
+                    "3rd Year Coordinator / Associate Professor"
+                ],
+                [
+                    "Er. Sharad Chandra Joshi",
+                    "Associate Professor / Major Project Coordinator"
+                ],
+                [
+                    "Er. Anju Khanal",
+                    "Sr. Lecturer"
+                ],
+                [
+                    "Er. Sharad Neupane",
+                    "Sr. Lecturer/1st Year Coordinator"
+                ],
+                [
+                    "Er. Ritu Bajracharya",
+                    "Lecturer/ 2nd Year Coordinator"
+                ],
+                [
+                    "Er. Krishta Byanju",
+                    "Assistant Lecturer/ Minor Project Coordinator"
+                ]
+            ]
+        }
+    },
+    "civilfacultymembers": {
+        "text": "Civil Faculty Members:",
+        "table": {
+            "headers": [
+                "Name",
+                "Position"
+            ],
+            "rows": [
+                [
+                    "Er. Arjun Poudel",
+                    "HOD / Associate Professor"
+                ],
+                [
+                    "Er. Ramesh Kaphle",
+                    "Dy. HOD / Associate Professor/ Research Member"
+                ],
+                [
+                    "Er. Ishwar Adhikari",
+                    "Associate Professor / Sports Chief"
+                ],
+                [
+                    "Er. Bimal Bhattarai",
+                    "Associate Professor / Placement Co-ordinator"
+                ],
+                [
+                    "Er. Rajan Nhemaphuk",
+                    "Senior Lecturer / 4th yr Co-ordinator"
+                ],
+                [
+                    "Er. Harshikesh Kr. Karna",
+                    "Sr. Lecturer/ 2nd yr Co-ordinator"
+                ],
+                [
+                    "Er. Nimesh Karki",
+                    "Lecturer / 3rd Year Co-ordinator "
+                ],
+                [
+                    "Er. Sumona Bajracharya",
+                    "Lecturer / 1st year co-ordinator"
+                ],
+                [
+                    "Er. Abhishek Bhattarai",
+                    "Lecturer / Lab Co-ordinator"
+                ],
+                [
+                    "Er. Shantosh Khadka",
+                    "Lecturer"
+                ],
+                [
+                    "Er. Bikram Shah",
+                    "Lecturer"
+                ],
+                [
+                    "Er. Abhishek Poudel",
+                    "Lecturer"
+                ]
+            ]
+        }
+    },
+    "electricalfacultymembers": {
+        "text": "Electrical Faculty Members:",
+        "table": {
+            "headers": [
+                "Name",
+                "Position"
+            ],
+            "rows": [
+                [
+                    "Er. Binod Bhandari",
+                    "HOD / Associate Professor"
+                ],
+                [
+                    "Er. Md. Jalaluddin Rayeen",
+                    "Senior Lecturer"
+                ],
+                [
+                    "Er. Manoj Raj Dhungana",
+                    "Senior Lecturer / 3rd & 4th Year Co-ordinator"
+                ],
+                [
+                    "Er. Baijnath Agrahari",
+                    "Lecturer / 1st & 2nd Year Coordinator"
+                ],
+                [
+                    "Er. Chitra Bdr. Khadka",
+                    "Chief Lab Incharge"
+                ]
+            ]
+        }
+    },
+    "electronicsfacultymembers": {
+        "text": "Electronics Faculty Members:",
+        "table": {
+            "headers": [
+                "Name",
+                "Position"
+            ],
+            "rows": [
+                [
+                    "Er. Rajan Lama",
+                    "HOD/ Associate Professor"
+                ],
+                [
+                    "Er. Suramya Sharma Dahal",
+                    "Dy. HOD Associate Professor /Research Member"
+                ],
+                [
+                    "Er. Sagun Manandhar",
+                    "Associate Professor / Research Member"
+                ],
+                [
+                    "Er. Anmol Ratna Bajracharya",
+                    "Associate Professor / Research Member"
+                ],
+                [
+                    "Er. Smriti Nakarmi",
+                    "2nd & 3rd Year Coordinator / Associate Professor"
+                ],
+                [
+                    "Er. Ravi Poudel",
+                    "1st & 4th Year Coordinator / Associate Professor"
+                ],
+                [
+                    "Er. Gaurav Gautam",
+                    "Lab Coordinator / Associate Professor"
+                ],
+                [
+                    "Er. Sujan Shrestha",
+                    "Minor Project Coordinator / Senior Lecture"
+                ],
+                [
+                    "Dr. Dipen Manandhar",
+                    "Major Project Coordinator / Senior Lecturer"
+                ],
+                [
+                    "Er. Pushpa Dhamala",
+                    "Associate Professor"
+                ],
+                [
+                    "Er. Rubi Kumari Mahato",
+                    "Senior   Lecturer"
+                ],
+                [
+                    "Er. Dhawa Sang Dong",
+                    "Lecturer/ Research Member"
+                ],
+                [
+                    "Er. Sarina Barahi",
+                    "Lecturer"
+                ]
+            ]
+        }
+    },
+    "architecturefacultymembers": {
+        "text": "Architecture Faculty Members:",
+        "table": {
+            "headers": [
+                "Name",
+                "Position"
+            ],
+            "rows": [
+                [
+                    "Ar. Shailita Manandhar",
+                    "Vice Principal / Associate Professor"
+                ],
+                [
+                    "Ar. Moon Singh Dongol",
+                    "HOD / Associate Professor"
+                ],
+                [
+                    "Ar. Sweta Shrestha",
+                    "Dy. HOD/ Associate Professor  / Research Member"
+                ],
+                [
+                    "Ar. Kailash Shrestha",
+                    "Associate Professor"
+                ],
+                [
+                    "Ar. Subash Phuyal",
+                    "Associate Professor / 4th & 5th year co-ordinator/ Thesis Co-ordinator"
+                ],
+                [
+                    "Ar. Pranita Sharma Pandey",
+                    "Associate Professor  / Research Member"
+                ],
+                [
+                    "Ar. Suchita Bajracharya",
+                    "Associate Professor / 2nd & 3rd  year Co-ordinator"
+                ],
+                [
+                    "Ar, Pratibha Manandhar",
+                    "Associate Professor /  1st year Co-ordinator"
+                ],
+                [
+                    "Ar. Sagun Maharjan",
+                    "Senior Lecturer"
+                ]
+            ]
+        }
+    },
+    "computercurriculum": {
+        "text": "BCT curriculum",
+        "table": {
+            "headers": [
+                "Year/Part",
+                "Subjects"
+            ],
+            "rows": [
+                [
+                    "I/I",
+                    "\nSH 401 Engineering Mathematics I \nCT 401 Computer Programming \nME 401 Engineering Drawing I \nSH 402 Engineering Physics \nCE 401 Applied Mechanics \nEE 401 Basic Electrical Engineering"
+                ],
+                [
+                    "I/II",
+                    "\nSH 451 Engineering Mathematics II \nME 451 Engineering Drawing II \nEX 451 Basic Electronics Engineering \nSH 453 Engineering Chemistry \nME 452 Fundamental of Thermodynamics \nME 453 Workshop Technology"
+                ],
+                [
+                    "II/I",
+                    "\nSH 501 Engineering Mathematics III \nCT 501 Object Oriented Programming \nCT 502 Theory of Computation \nEE 501 Electric Circuits Theory \nEE 501 Electronics Devices and Circuits \nEX 502 Digital Logic \nEX 503 Electromagnetics"
+                ],
+                [
+                    "II/II",
+                    "\nEE 551 Applied Mathematics \nSH 553 Numerical Method \nSH 552 Instrumentation I \nCT 554 Electrics Machines \nCT 551 Discrete Structure \nEE 552 Data Structure and Algorithm \nEX 551 Microprocessor"
+                ],
+                [
+                    "III/I",
+                    "\nSH 601 Communication English \nSH 602 Probability and Statistics \nCT 601 Software Engineering \nCT 602 Data Communication \nEX 602 Instrumentation II \nCT 603 Computer Organization & Architecture \nEX 603 Computer Graphics"
+                ],
+                [
+                    "III/II",
+                    "\nCE 655 Engineering Economics \nCT 651 Object Oriented Analysis and Design \nCT 652 Database Management System \nCT 653 Artificial Intelligence \nCT 655 Embedded System \nCT 656 Operating System \nCT 654 Minor Project"
+                ],
+                [
+                    "IV/I",
+                    "\nME 708 Organization & Management \nEX 701 Energy Environment & Society \nCT 701 Project Management \nCT 702 Computer Networks \nCT 703 Distributed Systems \nCT 704 Digital Signal Analysis & Processing \nCT 725 Elective I \nCT 707 Major Project (Part A)"
+                ],
+                [
+                    "IV/II",
+                    "\nCE 752 Professional Practice \nCT 751 Information Systems \nCT 753 Simulation and Modelling \nCT 754 Internet and Intranet \nCT 765 Elective II \nCT 785 Elective III \nCT 755 Major Project (Part B)"
+                ]
+            ]
+        }
+    },
+    "electronicscurriculum": {
+        "text": "BEX curriculum",
+        "table": {
+            "headers": [
+                "Year/Part",
+                "Subjects"
+            ],
+            "rows": [
+                [
+                    "I/I",
+                    "\nSH 401 Engineering Mathematics I \nCT 401 Computer Programming \nME 401 Engineering Drawing I \nSH 402 Engineering Physics \nEX 401 Digital Logic \nEE 401 Basic Electrical Engineering"
+                ],
+                [
+                    "I/II",
+                    "\nSH 451 Engineering Mathematics II \nEX 452 Microprocessor \nCT 451 Object Oriented Programming \nSH 453 Engineering Chemistry \nEE 460 Electrical Circuits & Machines \nME 453 Workshop Technology"
+                ],
+                [
+                    "II/I",
+                    "\nSH 501 Engineering Mathematics III \nEX 509 (EE 602) Control Systems \nSH 510 (SH 602) Probablity & Statistics \nEE 501 Electronics Devices and Circuits \nEX 510 Instrumentation \nEX 503 Electromagnetics"
+                ],
+                [
+                    "II/II",
+                    "\nEE 551 Applied Mathematics \nSH 553 Numerical Method \nEX 553 (EX 601) Advanced Electronics \nEX 554 (EX 603) Computer Graphics \nCT 551 Discrete Structure \nEE 552 Data Structure and Algorithm \n"
+                ],
+                [
+                    "III/I",
+                    "\nCE 615 (CE 655) Engineering Economics \nCT 610 (CT 652) Database Management Systems \nCT 613 (CT 657) Computer Network \nCT 612 (CT 656) Operating Systems \nEX 605 (EX 704) Filter Design \nCT 603 Computer Organization & Architecture"
+                ],
+                [
+                    "III/II",
+                    "\nSH 655 (SH 601) Communication English \nCT 658 (CT 701) Project Management \nEX 653 Propagation and Antenna \nEX 656 Communication Systems \nCT 657 Object Oriented Software Engineering \nCT 655 Embedded Systems \nEX 654 Minor Project"
+                ],
+                [
+                    "IV/I",
+                    "\nEX 716 (EX 752) RF and Microwave Engineering \nCT 710 (CT 653) Artificial  Intelligence \nME 708 Organization and Management \nEX 710 (CT 704) Digital Signal Analysis and Processing \nEX 715 (EX 751) Wireless Communication \nEX 725 … ElectiveI \nEX 707 Project(Part A)"
+                ],
+                [
+                    "IV/II",
+                    "\nEX 756 (EX 703) Telecommunications \nCE 752 Engineering Professional Practice \nEX 757 (EX 701) Energy, Environment and Society \nCT 751 Information Systems \nEX 765 Elective II \nEX 785 Elective III \nEX 755 Major Project (Part B)"
+                ]
+            ]
+        }
+    },
+    "electricalcurriculum": {
+        "text": "BEL curriculum",
+        "table": {
+            "headers": [
+                "Year/Part",
+                "Subjects"
+            ],
+            "rows": [
+                [
+                    "I/I",
+                    "\nEngineering Mathematics I \nComputer Programming \nEngineering Drawing I \nEngineering Physics \nApplied Mechanics \nBasic Electrical Engineering"
+                ],
+                [
+                    "I/II",
+                    "\nMathematics II \nEngineering Drawing \nBasic Electronics Engineering \nChemistry \nFundamental of Thermodynamics \nWorkshop Technology"
+                ],
+                [
+                    "II/I",
+                    "\n III \nObject Oriented Programming \nElectric Circuit Theory \nElectrical Engineering Material \nElectronics Devices and Circuits \nDigital Logic \nElectromagnetic"
+                ],
+                [
+                    "II/II",
+                    "\nElectrical Machine I \nNumerical Method \nApplied Mathematics \nInstrumentation I \nPower System Analysis I \nMicroprocessor"
+                ],
+                [
+                    "III/I",
+                    "\nCommunication English \nProbability and Statistic \nControl System \nInstrumentation II \nPower System Analysis II \nElectrical Machine Design \nElectrical Machine II"
+                ],
+                [
+                    "III/II",
+                    "\nEngineering Economics \nDigital Control System \nSignal Analysis \nSwitchgear and Protection \nIndustrial Distribution and Illumination \nHydro Power"
+                ],
+                [
+                    "IV/I",
+                    "\nProject Engineering \nOrganization and Management \nTechnology Environment and Society \nPower Electronics \nUtilization of Electrical Energy \nElective I \nPower Plant Equipment \nProject (Part A)"
+                ],
+                [
+                    "IV/II",
+                    "\nEngineering Professional Practice \nHigh Voltage Engineering \nPower Plant Design \nTransmission and Distribution Design \nElective II \nElective III ]nProject (Part B)"
+                ]
+            ]
+        }
+    },
+    "architecturecurriculum": {
+        "text": "BArch Curriculam",
+        "table": {
+            "headers": [
+                "Year/Part",
+                "Subjects"
+            ],
+            "rows": [
+                [
+                    "I/I",
+                    "SH 104 Mathematics for Acrchitecture I \nAR 101 Design Studio I \nAR 102 Introduction to Architecture \nAR 103 Building Material I \nAR 104 Architecture Graphics I \nAR 105 Free Hand Sketching I"
+                ],
+                [
+                    "I/II",
+                    "SH 155 Mathematics for Acrchitecture II \nAR 151 Architecture Graphics II \nAR 152 Design Studio II \nAR 153 Building Construction I \nAR 154 History of Nepalese Architecture \nAR 155 Free Hand Sketching II \nCE 156 Applied Mechanics"
+                ],
+                [
+                    "II/I",
+                    "AR 504 Building Construction II \nAR 503 Building Materials II \nAR 506 Building Science I \nAR 501 Design Studio III \nAR 502 History of Architecture I \nCE 507 Structure I \nAR 505 Design Theory I"
+                ],
+                [
+                    "II/II",
+                    "AR 554 Building Construction III \nAR 555 Design Thoery II \nAR 551 Design Studio IV \nAR 552 History of Architecture II \nCE 557 Structure II \nCE 558 Surveying"
+                ],
+                [
+                    "III/I",
+                    "AR 604 Building Construction IV \nCE 607 Building Service I \nEE 604 Building Service II \nAR 601 Design Studio V \nAR 602 Contemporary Architecture \nAR 603 Computer Aided Design and Drafting \nAR 605 Working Drawing"
+                ],
+                [
+                    "III/II",
+                    "AR 651 Design Studio VI \nCE 659 Estimating Costing \nAR 652 Urban Settlement Planning \nCE 657 Structure III \nSH 652 Sociology \nSH 653 Building Economics \nCE 658 Specifications \nAR 653 Building Science II"
+                ],
+                [
+                    "IV/I",
+                    "AR 701 Practicum"
+                ],
+                [
+                    "IV/II",
+                    "AR 751 Architectural Conservation \nAR 752 Design Studio VII \nAR 753 Construction Management \nSH 754 Communications \nAR 765 Elective I \nCE 761 Structure IV \nME 760 Building Services III"
+                ],
+                [
+                    "V/I",
+                    "AR 801 Seminar and Directed Studies \nAR 802 Design Studio VIII \nAR 803 Landscape Deisgn and Site Planning \nAR 825 Elective II \nAR 805 Professional Practice \nAR 806 Thesis Proposal"
+                ],
+                [
+                    "V/II",
+                    "AR 851 Thesis"
+                ]
+            ]
+        }
+    },
+    "classroutine": {
+        "text": "Routine:",
+        "url": "https://iwannanap1.github.io/chatbot/images/routine4.jpg"
+    },
+    "adtroutine": {
+        "text": "ADT Routine:",
+        "url": "https://iwannanap1.github.io/chatbot/images/adt2.jpg"
+    },
+    "registration": "For registation <a target=\"_blank\" href=\"https://onlineform.kecktm.edu.np/home\">visit here</a>",
+    "examroutine": {
+        "text": "IV/II Board Exam Routine",
+        "url": "https://iwannanap1.github.io/chatbot/images/boardroutine.jpeg"
+    },
+    "notes": "The notes are provided by respected subject teacher.To access the note you can also visit websites like <a target=\"_blank\" href=\"https://www.ioenotes.edu.np/syllabus\">IOE notes</a>, <a target=\"_blank\" href=\"https://bctengineeringnotes.blogspot.com\">BCT blogspot</a>"
+}

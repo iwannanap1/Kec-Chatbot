@@ -1,0 +1,103 @@
+<!-- display_events.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='admin.css') }}">
+    <title>Display Events</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    }
+
+    .nav {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav h1 {
+        margin: 0;
+    }
+
+    .nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 10px;
+        margin-right: 10px;
+    }
+
+    .nav a.active {
+        background-color: none;
+    }
+
+    /* Style for table */
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    table, th, td {
+        border: 1px solid #ddd;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+    .edit{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .title{
+        margin-bottom: 10px;
+        margin-right: auto;
+    }
+    .links {
+    display: flex;
+    gap: 20px; /* Adjust spacing between links */
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: #333;
+    }
+
+</style>
+<body>
+    <div class="nav">
+        <h1 class="title">Admin Panel</h1>
+        <div>
+            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="/">Home</a>
+            <a class="nav-link fw-bold py-1 px-0" href="/display_events">Events</a>
+            <a class="nav-link fw-bold py-1 px-0" href="/logout">logout</a>
+        </div>
+        
+    </div>
+    <h2>Add New Event</h2>
+    <form action="{{ url_for('events') }}" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+        <label for="venue">Venue:</label>
+        <input type="text" id="venue" name="venue"><br><br>
+        <label for="details">Details:</label><br>
+        <textarea id="details" name="details" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Add Event">
+    </form>
+</body>
+</html>

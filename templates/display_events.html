@@ -1,0 +1,132 @@
+<!-- display_events.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='admin.css') }}">
+    <title>Display Events</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    }
+
+    .nav {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav h1 {
+        margin: 0;
+    }
+
+    .nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 10px;
+        margin-right: 10px;
+    }
+
+    .nav a.active {
+        background-color: none;
+    }
+
+    /* Style for table */
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    table, th, td {
+        border: 1px solid #ddd;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+    .edit{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .title{
+        margin-bottom: 10px;
+        margin-right: auto;
+    }
+    .links {
+    display: flex;
+    gap: 20px; /* Adjust spacing between links */
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: #333;
+    }
+
+</style>
+<body>
+    <div class="nav">
+        <h1 class="title">Admin Panel</h1>
+        <div>
+            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="/">Home</a>
+            <a class="nav-link fw-bold py-1 px-0" href="/display_events">Events</a>
+            <a class="nav-link fw-bold py-1 px-0" href="/logout">logout</a>
+        </div>
+        
+    </div>
+    <h1>Events</h1>
+    <form id="addEventForm" action="/events" method="get">
+        <button type="button" onclick="redirectToAddEvent()" class="add">Add New Event</button>
+        <input type="hidden" name="redirect_url" value="{{ url_for('events') }}">
+    </form>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Venue</th>
+                <th>Details</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for event in events %}
+            <tr>
+                <td>{{ event.name }}</td>
+                <td>{{ event.date }}</td>
+                <td>{{ event.venue }}</td>
+                <td>{{ event.details }}</td>
+                <td class="edit">
+                    <form action="/edit_event" method="POST" style="display: inline;">
+                        <input type="hidden" name="event_id" value="{{ event.id }}">
+                        <button type="submit">Edit</button>
+                    </form>
+                    <form action="/delete_event" method="POST">
+                        <input type="hidden" name="event_id" value="{{ event.id }}">
+                        <button type="submit">Delete</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <script>
+        function redirectToAddEvent() {
+          document.getElementById("addEventForm").submit();
+        }
+    </script>      
+</body>
+</html>

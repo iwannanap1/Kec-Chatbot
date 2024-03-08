@@ -1,0 +1,91 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: auto;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        margin-left: auto;
+        display: flex;
+        align-items: center
+    }
+
+    .nav h1 {
+        margin: 0;
+    }
+
+    .nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 10px;
+        margin-right: 10px;
+    }
+
+    .nav a.active {
+        background-color: none;
+    }
+    .add{
+        margin:10px 3px;
+    }
+
+    h2 {
+        margin-top: 20px;
+    }
+
+    form {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    textarea {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    table th,
+    table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    table th {
+        background-color: #f2f2f2;
+    }
+
+    table tr:hover {
+        background-color: #f2f2f2;
+    }
